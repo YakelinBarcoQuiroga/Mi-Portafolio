@@ -1,0 +1,143 @@
+.container-habilidades {
+  width: 95%;
+  margin: 2rem auto;
+}
+.nav-link {
+  color: #5c461d;
+  min-width: 230px;
+  background-color: #fbbcb3 !important;
+  border-radius: 10px !important;
+  height: 3.5rem;
+  font-family: "Klee One", cursive;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: solid 2px #f6998b !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 2.5rem;
+}
+.icon-habilidades {
+  display: none;
+}
+.nav {
+  position: fixed;
+}
+.nav-link:hover {
+  color: white;
+}
+.container-tarjetas {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-around;
+  margin-left: 19rem;
+  margin-bottom: 130px;
+}
+.habilidades-tarjeta {
+  border: 2px #5c461d solid;
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.habilidades-tarjeta-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  border: solid #5c461d 2px;
+  margin: 0rem auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.habilidades-tarjeta-img img {
+  width: 90%;
+  height: 90%;
+  border-radius: 10px;
+}
+.habilidades-tarjeta-texto {
+  text-align: center;
+  font-family: "Klee One", cursive;
+}
+.habilidades-tarjeta-texto p,
+li {
+  margin: 0rem;
+}
+.habilidades-tarjeta-texto p {
+  font-weight: 600;
+}
+.habilidades-tarjeta-texto li {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 1094px) {
+  .container-tarjetas {
+    width: 65%;
+    margin-left: 19rem;
+  }
+}
+@media (max-width: 928px) {
+  .container-tarjetas {
+    width: 63%;
+    margin-left: 18rem;
+  }
+}
+@media (max-width: 829px) {
+  .container-tarjetas {
+    width: 65%;
+    margin-left: 16rem;
+  }
+}
+@media (max-width: 804px) {
+  .container-tarjetas {
+    width: 82%;
+    margin-left: 7rem;
+  }
+  .nav-link p {
+    display: none;
+  }
+  .nav-link {
+    min-width: 4rem;
+  }
+  .icon-habilidades {
+    display: block;
+  }
+}
+@media (max-width: 636px) {
+  .container-tarjetas {
+    width: 75%;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 507px) {
+  .container-tarjetas {
+    width: 70%;
+    margin-left: 7rem;
+  }
+}
+@media (max-width: 430px) {
+  .container-tarjetas {
+    width: 70%;
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 400px) {
+  .container-tarjetas {
+    width: 70%;
+    margin-left: 6rem;
+  }
+  .habilidades-tarjeta {
+    width: 180px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .habilidades-tarjeta-img {
+    width: 150px;
+  }
+}

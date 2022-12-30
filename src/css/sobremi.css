@@ -1,0 +1,56 @@
+.contenido-sobremi{
+    width: 95%;
+    margin: 0rem auto;
+}
+.contenido-sobremi-img{
+    margin-top: 1rem;
+    min-width: 320px;
+    max-width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #5c461d;
+    border-radius: 20px;
+    float: left;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.contenido-sobremi-img-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #5c461d;
+    border-radius: 20px;
+    min-width: 280px;
+    height: 280px;
+}
+.contenido-sobremi-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    float: left;
+}
+.contenido-sobremi-texto{
+    padding: 1rem;
+    text-align: justify;
+    font-family: "Klee One", cursive;
+    font-size: 1.4rem;
+    color: #5c461d;
+    margin-right: 3rem;
+    margin-bottom: 130px;
+}
+@media (max-width: 646px) {
+    .contenido-sobremi{
+        width: 95%;
+        margin: 0rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenido-sobremi-texto{
+        margin-right: 0rem;
+        
+    }
+}
