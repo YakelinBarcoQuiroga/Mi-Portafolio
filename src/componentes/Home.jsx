@@ -7,6 +7,8 @@ import Contacto from "../img/img-contactame.gif"
 import Habilidades from "../img/habilidades-img.gif"
 import {Link} from 'react-router-dom'
 
+import CV from '../pdf/Yakelin Barco CV.pdf'
+
 const home = () => {
   return (
     <div>
@@ -26,7 +28,7 @@ const home = () => {
           <div className="contenido-botoncv-img">
               <img src={GatoCv} alt="" />
           </div>
-          <a className="boton-cv" href={GatoPrincipal} download="gato">CV</a>
+          <a className="boton-cv" href={CV} download="Yakelin Barco CV.pdf">CV</a>
         </div>
         <div className="contenedor-menu">
           <Link className="botones-menu" to="/sobremi">
